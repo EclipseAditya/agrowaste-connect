@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "title": "Urgent Account Verification Required",
+    "description": "From: security@yourbank-support.com\nSubject: Urgent: Verify Your Account Information\n\nDear Customer,\n\nWe detected unusual activity on your account. Please click the link below immediately to verify your identity and prevent account suspension:\n\nhttp://yourbank-support-login.co/verify\n\nFailure to do so within 24 hours will result in permanent account closure.\n\nSincerely,\nYour Bank Security Team",
+    "options": [
+      { "text": "Click the link to verify identity.", "isCorrect": false },
+      { "text": "Ignore the email and delete it.", "isCorrect": true },
+      { "text": "Reply with your account details.", "isCorrect": false },
+      { "text": "Call the bank using the number on their official website.", "isCorrect": true }
+    ],
+    "feedbackCorrect": "Correct! Verifying through official channels or deleting suspicious emails is safe.",
+    "feedbackIncorrect": "Incorrect. Clicking suspicious links or replying can compromise your account.",
+    "linkHoverText": "The link points to 'yourbank-support-login.co', not the official bank domain.",
+    "detailedFeedback": {
+      "0": "Incorrect. Clicking links in suspicious emails is dangerous. The sender address ('yourbank-support.com') and link domain ('yourbank-support-login.co') look unofficial and are designed to steal your login details.",
+      "1": "Correct. Ignoring and deleting suspicious emails is a safe way to handle potential phishing attempts without interacting with them.",
+      "2": "Incorrect. Never reply to suspicious emails with personal or account information. Legitimate institutions won't ask for sensitive data via email.",
+      "3": "Correct. Contacting the bank directly using a known, trusted phone number (from their official site or back of your card) is the safest way to verify any account issues."
+    }
+  },
+  {
+    "id": 2,
+    "title": "Fertilizer Subsidy Application",
+    "description": "From: agri-subsidies@gov-schemes.in\nSubject: Claim Your Fertilizer Subsidy Now!\n\nDear Farmer,\n\nYou are eligible for the new government fertilizer subsidy! To apply, please download the attached application form (Subsidy_Form.pdf), fill it out, and email it back along with a scanned copy of your Aadhaar card.\n\nApply quickly, limited funds available!\n\nRegards,\nDept. of Agriculture Subsidy Portal",
+    "options": [
+      { "text": "Download and open the PDF immediately.", "isCorrect": false },
+      { "text": "Forward the email to other farmers.", "isCorrect": false },
+      { "text": "Delete the email as it looks suspicious.", "isCorrect": true },
+      { "text": "Visit the official Dept. of Agriculture website to check for this scheme.", "isCorrect": true }
+    ],
+    "feedbackCorrect": "Well done! Verifying on official websites or deleting suspicious emails is the way to go.",
+    "feedbackIncorrect": "Risky! Unsolicited attachments can contain malware.",
+    "detailedFeedback": {
+        "0": "Risky! Opening attachments from unknown or suspicious senders (like 'gov-schemes.in' which might not be official) can install malware or ransomware on your device.",
+        "1": "Incorrect. Forwarding potential scams only spreads the risk to others. It's better to verify or delete.",
+        "2": "Correct. If an email seems suspicious (unsolicited request for sensitive info, urgency, unofficial sender), deleting it without interaction is a safe response.",
+        "3": "Correct. Always verify government schemes or requests by visiting the official government department's website directly. Don't rely on links or contact info in unsolicited emails."
+    }
+  },
+  {
+    "id": 3,
+    "title": "Invoice Payment Overdue",
+    "description": "From: accounts@agri-supplies-ltd.com\nSubject: OVERDUE: Invoice INV-7890 Payment Required\n\nDear Partner,\n\nOur records show invoice INV-7890 for your recent seed order is overdue. Please remit payment immediately to avoid disruption.\n\nDue to a recent system update, please use the following new bank details for this payment:\nAccount Name: Agri Supplies Global\nAccount Number: [Fake Account Number]\nIFSC: [Fake IFSC]\n\nA copy of the invoice is attached for your reference (Invoice_7890_Updated.zip).\n\nRegards,\nAccounts Payable, Agri Supplies Ltd.",
+    "options": [
+      { "text": "Download the zip file to check the invoice.", "isCorrect": false },
+      { "text": "Make the payment to the new bank details provided.", "isCorrect": false },
+      { "text": "Contact your usual representative at Agri Supplies Ltd. using their known phone number to verify the change.", "isCorrect": true },
+      { "text": "Reply to the email asking for confirmation.", "isCorrect": false }
+    ],
+    "feedbackCorrect": "Excellent choice. Always verify payment changes out-of-band.",
+    "feedbackIncorrect": "Be careful! This is a common scam.",
+    "detailedFeedback": {
+        "0": "Incorrect. ZIP files from unexpected emails are highly suspicious and often contain malware. Don't download or open them unless you've verified the sender's legitimacy through other means.",
+        "1": "Incorrect. Never change payment details based solely on an email request. Business Email Compromise (BEC) scams rely on tricking people into sending money to fraudulent accounts.",
+        "2": "Correct. The safest action is to contact your known supplier contact via a trusted method (phone) to confirm if the payment details have actually changed and if the invoice is legitimate.",
+        "3": "Risky. Replying to the email might seem logical, but you could be communicating directly with the scammer who will falsely confirm the details. Out-of-band verification is needed."
+    }
+  },
+  {
+    "id": 4,
+    "title": "Platform Security Alert",
+    "description": "From: NoReply <security@agriconnect-platform.net>\nSubject: Security Alert: Unusual Login Attempt Detected\n\nHi [Your Name],\n\nWe detected a login attempt to your AgriConnect account from an unrecognized device in [Different City/Country].\n\nIf this was not you, please secure your account immediately by clicking here: https://agriconnect-platform-security-check.info/secure\n\nIf you authorized this login, you can ignore this message.\n\nThanks,\nThe AgriConnect Team",
+    "options": [
+      { "text": "Click the link immediately to secure the account.", "isCorrect": false },
+      { "text": "Log in to the AgriConnect platform through your usual bookmark or by typing the official URL, and check security settings there.", "isCorrect": true },
+      { "text": "Ignore the email since you haven't noticed any issues.", "isCorrect": false },
+      { "text": "Forward the email to the platform's support email address found on their official website.", "isCorrect": true }
+    ],
+    "feedbackCorrect": "Good thinking! Verify independently or report suspicious emails.",
+    "feedbackIncorrect": "Watch out! Fake login pages or ignoring alerts can be dangerous.",
+    "linkHoverText": "The link points to 'agriconnect-platform-security-check.info', which is not the official platform domain.",
+    "detailedFeedback": {
+        "0": "Incorrect. The link likely leads to a fake login page designed to steal your password. Notice the suspicious domain name ('agriconnect-platform-security-check.info'). Never click links in security alerts.",
+        "1": "Correct. This is the safest way. Always access sensitive accounts directly through official URLs you know or bookmarks, not through links in emails, especially security alerts.",
+        "2": "Risky. While many alerts are false positives or phishing, ignoring a potential real alert could lead to account compromise if the attack was successful. Independent verification is better.",
+        "3": "Correct. Forwarding suspicious emails (as attachments, if possible) to the official support address helps the platform identify and block phishing attempts."
+    }
+  },
+  {
+    "id": 5,
+    "title": "Fake Technical Support Message",
+    "description": "** System Alert **\n\nWarning: Your computer may be infected with malware!\n\nMalicious activity detected. Your financial data might be at risk.\n\nCall Microsoft Certified Support immediately at: 1-800-XXX-XXXX [Fake Number]\n\nRef Error Code: WDSC0078",
+    "options": [
+      { "text": "Call the number provided immediately.", "isCorrect": false },
+      { "text": "Restart the computer.", "isCorrect": false },
+      { "text": "Close the popup/browser tab showing the message.", "isCorrect": true },
+      { "text": "Run a scan with your installed, reputable antivirus software.", "isCorrect": true }
+    ],
+    "feedbackCorrect": "Correct. Close fake alerts and rely on your own security software.",
+    "feedbackIncorrect": "Incorrect. Tech support scams aim to trick you.",
+    "detailedFeedback": {
+        "0": "Incorrect. This is a classic tech support scam. The number connects to fraudsters, not Microsoft. They will try to gain remote access and charge you for fake fixes or install actual malware.",
+        "1": "Ineffective. Restarting might temporarily remove the fake popup, but it doesn't confirm or remove any real threat (which is unlikely to exist based on this type of alert).",
+        "2": "Correct. Fake alerts often appear as popups or browser tabs. Simply closing them is usually sufficient to dismiss the scam attempt.",
+        "3": "Correct. If you are concerned about malware, the appropriate action is to run a full scan using your own trusted antivirus software, not to call a number shown in a random popup."
+    }
+  },
+  {
+    "id": 6,
+    "title": "Marketplace Buyer Inquiry (Suspicious Link)",
+    "description": "New Message from Buyer 'AgriTrader12'\n\nSubject: Question about your Wheat Listing\n\nHi, I am interested in your listing. Before I make an offer, can you confirm the quality? Please see the attached specification sheet I require: [Link to a file sharing site like filebin.net/xyzabc or similar]\n\nDoes your product meet these standards?\n\nThanks",
+    "options": [
+      { "text": "Click the link to download and check the specifications.", "isCorrect": false },
+      { "text": "Reply asking the buyer to describe the required specifications in the message instead of using a link.", "isCorrect": true },
+      { "text": "Ignore the message as it seems suspicious.", "isCorrect": true },
+      { "text": "Make an offer directly without checking the link.", "isCorrect": false }
+    ],
+    "feedbackCorrect": "Good choices. Avoid suspicious links from unknown contacts.",
+    "feedbackIncorrect": "Risky. Clicking unknown links can lead to malware.",
+    "linkHoverText": "The link goes to an external file-sharing site, not the platform itself.",
+    "detailedFeedback": {
+        "0": "Incorrect. Links from unknown marketplace users, especially those pointing to external file-sharing sites, are very risky and frequently used to distribute malware.",
+        "1": "Correct. This is a safe way to proceed. If the buyer is legitimate, they should be able to provide the required specifications directly. If they insist on the link, it increases suspicion.",
+        "2": "Correct. If a message seems off (unusual request, suspicious link), ignoring it is a valid and safe security measure on marketplaces.",
+        "3": "Risky. While you avoid the link, engaging further with a potentially malicious actor (by making an offer) might lead to other scam attempts later in the transaction."
+    }
+  }
+] 

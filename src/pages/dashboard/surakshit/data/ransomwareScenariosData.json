@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "title": "!!! YOUR FILES ARE ENCRYPTED !!!",
+    "ransomNote": "Attention!\n\nAll your important files - documents, photos, databases - related to crop management and finances have been encrypted using strong military-grade encryption.\n\nTo recover your files, you must pay a ransom of 0.5 Bitcoin to the following address: [Fake Bitcoin Address]\n\nYou have 72 hours to pay. After that, the price doubles. If you don't pay within one week, your files will be permanently deleted.\n\nDo not try to rename files or use third-party recovery software. This may damage your files permanently.\n\nContact us at [Fake Email Address] for payment instructions ONLY.",
+    "encryptedFiles": [
+      "crop_yield_report_2023.xlsx",
+      "soil_analysis_results.pdf",
+      "tractor_maintenance_log.docx",
+      "farm_financials_q4.xls",
+      "livestock_records.db",
+      "irrigation_schedule.csv",
+      "supplier_invoices/inv_1023.pdf",
+      "photos/harvest_2023/img_01.jpg"
+    ],
+    "options": [
+      { "text": "Immediately pay the ransom to get files back quickly.", "isSafe": false },
+      { "text": "Shut down the computer and disconnect it from the network.", "isSafe": true },
+      { "text": "Try to find a decryption tool online.", "isSafe": false },
+      { "text": "Restore files from a recent backup and report the incident.", "isSafe": true }
+    ],
+    "feedbackSafe": "Good response! Isolating the infected machine prevents spread. Restoring from a clean backup is the safest way to recover without paying attackers. Reporting helps authorities track these criminals.",
+    "feedbackUnsafe": "Risky choices. Paying the ransom doesn't guarantee file recovery and funds criminal activity. Free decryption tools rarely work for modern ransomware and might contain more malware. Focus on isolation and backup restoration.",
+    "timerText": "71:58:32",
+    "detailedFeedback": {
+        "0": "Risky Action! Paying the ransom is not recommended. There's no guarantee attackers will provide the decryption key, and it encourages further criminal activity. Focus on recovery options first.",
+        "1": "Recommended Action! Immediately isolating the infected computer by disconnecting network cables and Wi-Fi prevents the ransomware from potentially spreading to other devices on your network.",
+        "2": "Risky Action! While legitimate decryption tools exist for some older ransomware, free tools found online for new variants are often fake, ineffective, or may even contain additional malware.",
+        "3": "Recommended Action! Restoring from a recent, clean, and tested backup is the most reliable way to recover from ransomware without paying. Reporting helps authorities track these attacks."
+    }
+  },
+  {
+    "id": 2,
+    "title": "Data Recovery Service Offer",
+    "ransomNote": "WARNING: Your Farm Management System is Compromised!\n\nWe have detected a serious security breach. Your operational data has been encrypted by ransomware.\n\nDO NOT PANIC. We are a professional data recovery service. We can decrypt your files safely.\n\nContact us IMMEDIATELY at [Fake Recovery Email] for a quote. Time is critical!\n\nDO NOT contact law enforcement or other IT services, they will likely cause permanent data loss.",
+    "encryptedFiles": [
+      "livestock_feed_schedule.db",
+      "sensor_data_logs/temp_humidity.dat",
+      "employee_records.xls",
+      "customer_orders_pending.csv",
+      "accounting/profit_loss_2024.xlsx"
+    ],
+    "options": [
+      { "text": "Contact the recovery service immediately as they seem professional.", "isSafe": false },
+      { "text": "Isolate the affected systems from the network.", "isSafe": true },
+      { "text": "Assume it's a scam and ignore it.", "isSafe": false },
+      { "text": "Consult with a trusted IT security professional or service provider and check backups.", "isSafe": true }
+    ],
+    "feedbackSafe": "Correct. Isolating systems is the first step. Consulting trusted professionals and relying on backups is the standard procedure. Be wary of unsolicited 'recovery services' - they might be the attackers themselves or another scam.",
+    "feedbackUnsafe": "Dangerous. The 'recovery service' is likely the attacker trying another angle or a separate scam. Ignoring a potential breach isn't wise either. Always follow proper incident response: isolate, consult experts, check backups.",
+    "detailedFeedback": {
+        "0": "Risky Action! So-called 'recovery services' that appear immediately after an attack are often the attackers themselves or affiliated scammers trying to extort money without actually helping, or charging exorbitant fees.",
+        "1": "Recommended Action! Even if you plan to seek help, isolating the compromised system(s) is a critical first step to prevent further spread or data exfiltration by the attackers.",
+        "2": "Risky Action! While this specific message might be a scam separate from the initial infection, ignoring a potential ransomware incident entirely means you don't take steps to recover or prevent recurrence.",
+        "3": "Recommended Action! Legitimate IT security professionals can help assess the damage, identify the ransomware type (if possible), guide recovery efforts (including backup restoration), and improve future security."
+    }
+  },
+  {
+    "id": 3,
+    "title": "USB Drive Found",
+    "ransomNote": "(No message initially, just a file appears after plugging in a found USB drive)\n\nLater, a message appears:\n\nOops! Your Important Farm Files Are Encrypted!\n\nBad luck finding that USB, wasn't it?\n\nTo get your files back, send 0.2 BTC to [Fake Address 2].\n\nPayment timer: 48:00:00",
+    "encryptedFiles": [
+      "latest_soil_report.pdf",
+      "drone_imagery/field_A_analysis.jpg",
+      "pest_control_schedule.docx",
+      "equipment_inventory.xls"
+    ],
+    "options": [
+      { "text": "Immediately plug in any found USB drive to see what's on it.", "isSafe": false },
+      { "text": "Format the USB drive before using it.", "isSafe": false },
+      { "text": "Hand over found USB drives to IT/security personnel or destroy them securely.", "isSafe": true },
+      { "text": "If already plugged in and ransomware appears, disconnect the PC from the network and seek professional help.", "isSafe": true }
+    ],
+    "feedbackSafe": "Smart move! Never plug in unknown USB drives - they are a common vector for malware. If an infection occurs, isolating the machine is key. Formatting might not remove sophisticated malware.",
+    "feedbackUnsafe": "Very risky! Found USBs often contain malware designed to auto-run (autorun.inf) or trick users into running malicious files. Formatting doesn't guarantee safety if the malware exploits firmware. Treat unknown media as hostile.",
+    "timerText": "47:55:10",
+    "detailedFeedback": {
+        "0": "Risky Action! This is how USB drop attacks work. Attackers intentionally leave infected drives hoping someone will plug them in out of curiosity, triggering malware installation.",
+        "1": "Risky Action! Formatting might not be enough to remove malware, especially if it resides in the firmware or uses sophisticated techniques. The risk outweighs any potential benefit.",
+        "2": "Recommended Action! Treating unknown media as potentially malicious and disposing of it safely (or handing it to security professionals) is the best practice to prevent infection.",
+        "3": "Recommended Action! If the worst happens and plugging in the drive leads to ransomware, immediate network isolation and seeking expert help (followed by backup restoration) is the correct response."
+    }
+  }
+] 
