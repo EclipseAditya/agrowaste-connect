@@ -13,7 +13,6 @@ Agro-Waste Connect is a comprehensive platform designed to facilitate the manage
 - [Project Structure](#project-structure)
 - [Tech Stack](#tech-stack)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 
